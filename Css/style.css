@@ -1,0 +1,49 @@
+body {
+    background-color: #fffbf7;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#tit_principal {
+    font-family: 'Alegreya', serif;
+    color: #025157;
+}
+
+#sub_principal {
+    color: #46484c;
+}
+
+input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+button {
+    background-color: #025157;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+}
+
+#tit_promo {
+    color: #8b8b8bcc;
+}
+
+#tit_promo strong {
+    color: #000000;
+}
