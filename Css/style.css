@@ -1,5 +1,6 @@
 body {
     background-color: #fffbf7;
+    margin: 0;
 }
 
 input,
@@ -13,37 +14,144 @@ a:hover {
     text-decoration: none;
 }
 
-#tit_principal {
-    font-family: 'Alegreya', serif;
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header_menu {
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+
+.header_menu>* {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.header_menu .logo_header {
+    width: 15%;
+}
+
+.header_menu .navbar {
+    width: 70%;
+    text-align: center;
+}
+
+.header_menu .navbar ul {
     color: #025157;
+    padding: 0;
 }
 
-#sub_principal {
+.header_menu li {
+    display: inline;
+}
+
+.acciones {
+    width: 15%;
+}
+
+.acciones>* {
+    margin: 0 10px;
+}
+
+.acciones a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.acciones button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/*--------------------------------------------------------------
+# 1 seccion
+--------------------------------------------------------------*/
+
+.titulos {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.tit_principal {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #025157;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.sub_principal {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 20px;
     color: #46484c;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
-input {
+.email_inscripcion {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     border: 1px solid #b6b6b6;
+    height: 40px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
     padding: 6px 20px;
     width: 60%;
     max-width: 250px;
 }
 
-button {
-    background-color: #025157;
+.inscripcion {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     color: #ffffff;
-    border-radius: 5px;
+    background-color: #025157;
+    height: 55px;
     border: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     padding: 6px 20px;
-    margin-left: -10px;
+    margin-left: -50px;
 }
 
-#tit_promo {
+.promo {
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.tit_promo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8b8b8bcc;
+    margin: 0;
+}
+
+.tit_promo strong {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     color: #8b8b8bcc;
 }
 
-#tit_promo strong {
-    color: #000000;
+.titulos .servicios {
+    vertical-align: middle;
+    border-style: none;
+    margin: 15px 0 16px 0;
 }
