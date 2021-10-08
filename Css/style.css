@@ -24,8 +24,15 @@ a:hover {
 --------------------------------------------------------------*/
 
 .header_menu {
-    margin: 40px 20px 0;
+    background-color: #fffbf7;
+    margin: 0 20px 0;
+    height: 60px;
     font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 15px;
 }
 
 .header_menu>* {
@@ -158,4 +165,94 @@ a:hover {
     vertical-align: middle;
     border-style: none;
     margin: 15px 0 16px 0;
+}
+
+.intro {
+    text-align: center;
+    width: 70%;
+}
+
+
+/*--------------------------------------------------------------
+# 2 seccion
+--------------------------------------------------------------*/
+
+.intro {
+    margin: 32px 0 16px;
+}
+
+.intro img {
+    width: 70%;
+}
+
+.promo {
+    display: flex;
+    max-width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.publish {
+    padding-left: 10px;
+}
+
+.explanatory-video .imgvideo {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.publish h3 {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.publish>p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish .action {
+    color: #8b8b8bcc;
+    margin-top: 15px;
+}
+
+.publish .signup-form input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #b6b6b6;
+    height: 40px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+.publish .signup-form button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #025157;
+    height: 55px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 6px 20px;
+    margin-left: -50px;
 }
